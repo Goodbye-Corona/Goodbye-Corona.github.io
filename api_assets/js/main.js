@@ -182,7 +182,7 @@
 
 							},
 							error: function(xhr, ajaxOptions, thrownError) {
-								alert("잘못된 접속입니다.\n\r잠시 후 다시 시도해 주시기 바랍니다.");
+								alert("잘못된 접속 또는 서버 내부 오류입니다.\n\r잠시 후 다시 시도해 주시기 바랍니다.");
 								$submit.disabled = false;
 								return;
 							}
