@@ -146,6 +146,7 @@
 
 					// Disable submit.
 						$submit.disabled = true;
+						document.getElementById("submit_button").innerHTML = "Loading";
 
 					// Process form.
 					// Note: Doesn't actually do anything yet (other than report back with a "thank you"),
@@ -158,6 +159,7 @@
 							dataType: 'json',
 							async: false,
 							success: function(data) {
+								document.getElementById("submit_button").innerHTML = "Sign Up";
 								if(data.resultCode == "000") {
 									swal({
 										title: "Error",
