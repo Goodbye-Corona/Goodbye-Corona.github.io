@@ -1,5 +1,6 @@
   # Goodbye-Corona
 굿바이코로나(Goodbye-Corona, Corona-19-API) 서비스에 사용되는 assets, 기타 파일 입니다.
+
 본 Repository에서는 Issue를 받지 않습니다. [**Corona-19-API/issues**](https://github.com/dhlife09/Corona-19-API/issues)에 문의사항을 남겨주시거나 [**여기를 클릭해 이메일을**](mailto:dhlife09@gmail.com)을 보내주세요.
 
 |파일(항목)명|저작권 설명|
