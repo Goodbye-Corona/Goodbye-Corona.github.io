@@ -154,7 +154,7 @@
 					
 						$.ajax({
 							type: "POST",
-							url: "https://api.corona-19.kr/system/registerAPI/index.php",
+							url: "system/registerAPI/",
 							data: $('#signup-form').serialize(),
 							dataType: 'json',
 							async: false,
